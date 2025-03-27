@@ -1,4 +1,4 @@
-package com.notifeetesting
+package com.notifeeTesting.testing
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

@@ -1,4 +1,4 @@
-package com.notifeetesting
+package com.notifeeTesting.testing
 
 import android.app.Application
 import com.facebook.react.PackageList
