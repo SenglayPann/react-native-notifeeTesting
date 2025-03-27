@@ -1,21 +1,13 @@
 import React from 'react';
-import {Button, StyleSheet, View} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import RootRoutes from './src/Navigation/RootRoutes';
 
 function App(): React.JSX.Element {
   return (
-    <View style={styles.rootContainer}>
-      <Button title="Push notification" onPress={undefined} />
-    </View>
+    <NavigationContainer>
+      <RootRoutes />
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  rootContainer: {
-    width: '100%',
-    height: '100%',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-});
 
 export default App;
