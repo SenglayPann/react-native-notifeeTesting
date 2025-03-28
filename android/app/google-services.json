@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "576873690943",
+    "project_id": "notifeetesting-a0081",
+    "storage_bucket": "notifeetesting-a0081.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576873690943:android:f2ab7aa20d5a151e0e858a",
+        "android_client_info": {
+          "package_name": "com.notifeeTesting.testing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_K36eKixSCuNrX1GiTfFX2otRpXj7H2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
