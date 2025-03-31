@@ -42,7 +42,7 @@ platform :android do
     release = firebase_app_distribution(
       app: "1:576873690943:android:f2ab7aa20d5a151e0e858a",
       testers: "senglaypann@gmail.com, tharath.morakot@gmail.com",
-      release_notes: "Check out my new release!"
+      release_notes: "this release is just a testing!"
     )
   end
 end
