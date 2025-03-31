@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {Button, StyleSheet, View} from 'react-native';
+import {Button, StyleSheet, Text, View} from 'react-native';
 import notifee, {AndroidImportance, EventType} from '@notifee/react-native';
 import {useNavigation} from '@react-navigation/native';
 
@@ -35,6 +35,7 @@ const Home = () => {
 
   return (
     <View style={styles.rootContainer}>
+      <Text>patch 4</Text>
       <Button title="Push Notification" onPress={handleDisplayNotification} />
     </View>
   );
